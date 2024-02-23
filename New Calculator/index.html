@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Version of Calculator</title>
+    <link href="styles/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>New Calculator with JavaScript</h1>
+    <h2>By Bruno Echeverría</h2>
+    <div class="calculator">
+        <input type="text" id="screen" readonly>
+        <br>
+        <input type="button" value="1" onclick="agree('1')">
+        <input type="button" value="2" onclick="agree('2')"> 
+        <input type="button" value="3" onclick="agree('3')">
+        <input type="button" value="+" onclick="agree('+')">
+        <br>
+        <input type="button" value="4" onclick="agree('4')"> 
+        <input type="button" value="5" onclick="agree('5')">
+        <input type="button" value="6" onclick="agree('6')">
+        <input type="button" value="-" onclick="agree('-')">
+        <br>
+        <input type="button" value="7" onclick="agree('7')">
+        <input type="button" value="8" onclick="agree('8')">
+        <input type="button" value="9" onclick="agree('9')">
+        <input type="button" value="*" onclick="agree('*')">
+        <br>
+        <input type="button" value="0" onclick="agree('0')">
+        <input type="button" value="." onclick="agree('.')">
+        <input type="button" value="/" onclick="agree('/')">
+        <input type="button" value="=" onclick="calculate('=')">
+        <br>
+        <input type="button" value="C" onclick="erase('C')">
+    </div>
+
+    <script src="/script/script.js"></script>
+</body>
+
+</html>
